@@ -24,15 +24,15 @@ import CoolProp.CoolProp as CP
 
 # --- User inputs ---
 fluid = 'CO2'                 # working fluid
-T_source = 160 + 273.15       # geothermal/heat source temperature [K]
-T_sink   = 5 + 273.15         # seawater sink temperature [K]
-T_evap_superheat = 5          # superheat [K]
-T_cond_subcool = 2            # subcooling [K]
-pinch_evap = 3                # pinch in evaporator [K]
-pinch_cond = 3                # pinch in condenser [K]
-eta_turbine = 0.78            # turbine isentropic efficiency
+T_source = 34 + 273.15       # geothermal/heat source temperature [K]
+T_sink   = 10 + 273.15         # seawater sink temperature [K]
+T_evap_superheat = 1.5          # superheat [K]
+T_cond_subcool = 3          # subcooling [K]
+pinch_evap = 5                # pinch in evaporator [K]
+pinch_cond = 5                # pinch in condenser [K]
+eta_turbine = 0.80            # turbine isentropic efficiency
 eta_pump = 0.75               # pump isentropic efficiency
-gen_eff = 0.95                # generator + gearbox efficiency
+gen_eff = 0.96                # generator + gearbox efficiency
 P_target = 100e3              # target net power [W]
 
 # --- Critical temperature check ---
